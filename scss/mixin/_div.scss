@@ -1,0 +1,11 @@
+@mixin div($w,$h,$bg){
+    width:$w;
+    height:$h;
+    background:$bg;
+}
+@mixin divradius($w,$h,$bg,$rd){
+    width:$w;
+    height:$h;
+    background:$bg;
+    border-radius:$rd;
+}

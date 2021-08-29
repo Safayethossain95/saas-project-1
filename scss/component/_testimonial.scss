@@ -1,0 +1,35 @@
+#testimonial{
+    margin-bottom:$sectiongap;
+    .testimonial__text{
+        
+        p{
+            color:$theme-color;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            padding-top:45px;
+        }
+        h3{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            color:#fff;
+            width:558px;
+        }
+        .small-text-blog{
+            color:$text-white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding-top:20px;
+            width:400px;
+        }
+        a{
+            color:$theme-color;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding-top:66px;
+        }
+    }
+}

@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body {
+  background: #000;
+  z-index: -1;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-collapse .searchbar-main {
+  position: relative;
+}
+
+.navbar .navbar-collapse .searchbar-main .nav-icon i {
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  color: #fff;
+}
+
+.navbar .navbar-collapse .searchbar-main .nav-icon input {
+  background: transparent;
+  padding-left: 35px;
+  border: 0;
+  color: #fff;
+  width: 95px;
+}
+
+.navbar .navbar-collapse .searchbar-main .nav-icon input::placeholder {
+  color: #fff;
+}
+
+.navbar .navbar-collapse .searchbar-main .nav-icon input.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body {
+  background: #000;
+  z-index: -1;
+}
+
+#banner {
+  background: url("../images/bannerreal.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  margin-bottom: 100px;
+}
+
+#banner .banner-text p {
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#banner .banner-text h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#banner .banner-text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 88px;
+  font-weight: 400;
+  color: #fff;
+}
+
+#blog {
+  margin-bottom: 100px;
+}
+
+#blog .blog-right-text {
+  margin-left: 80px;
+}
+
+#blog .blog-right-text p {
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 45px;
+}
+
+#blog .blog-right-text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  width: 450px;
+}
+
+#blog .blog-right-text .small-text-blog {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 20px;
+  width: 400px;
+}
+
+#blog .blog-right-text a {
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 66px;
+}
+
+#about {
+  margin-bottom: 100px;
+}
+
+#about .about__img {
+  position: relative;
+  height: auto;
+}
+
+#about .about__img--overlay {
+  width: 100%;
+  height: 100%;
+}
+
+#about .about__img--overlay--heading {
+  position: absolute;
+  bottom: 21%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  padding: 0 100px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50%;
+  text-transform: uppercase;
+}
+
+#about .about__img--smallheading {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: #FFC178;
+  font-family: "Open Sans", sans-serif;
+}
+
+#about .about__img--overlay--paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  width: 590px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+#about .about__img--overlay--link {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#testimonial {
+  margin-bottom: 100px;
+}
+
+#testimonial .testimonial__text p {
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 45px;
+}
+
+#testimonial .testimonial__text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  width: 558px;
+}
+
+#testimonial .testimonial__text .small-text-blog {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 20px;
+  width: 400px;
+}
+
+#testimonial .testimonial__text a {
+  color: #FFC178;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 66px;
+}
+
+#footer {
+  margin-bottom: 50px;
+}
+
+#footer .footer__logo--size {
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#footer .footer__button {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+#footer .footer__button--original {
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  background: #FFC178;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+}
+
+#footer .footermain {
+  height: 100px !important;
+  border-bottom: 5px solid #fff !important;
+}
+
+#footer .footerbottom__heading {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#footer .footerbottom {
+  margin-top: 30px;
+}
+
+#footer .footer__list li {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 47px;
+}
+
+#footer .footer__list li.bold {
+  font-weight: 700;
+  color: #FFC178;
+}
+
+#footer .footerbottom__search {
+  position: relative;
+}
+
+#footer .footerbottom__search input {
+  width: 350px;
+  height: 65px;
+  border: 1px solid #FFC178;
+  background: transparent;
+  padding-left: 15px;
+  margin-top: 51px;
+}
+
+#footer .footerbottom__search input::placeholder {
+  color: #fff;
+}
+
+#footer .footerbottom__search .footerbottom__search--button {
+  text-align: center;
+}
+
+#footer .footerbottom__search .footerbottom__search--icon {
+  line-height: 65px;
+  font-size: 30px;
+}
+
+#footer .footerbottom__search--button {
+  position: absolute;
+  width: 20%;
+  height: 65px;
+  right: 39px;
+  top: 51px;
+  background: #FFA343;
+  border-radius: 0px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,52 @@
+@import "../mixin/div";
+@import "../variable/variable";
+.navbar{
+    
+    @include div(100%,80px,$bgtr);
+    position:absolute;
+    top:0;
+    left:0;
+    .navbar-brand{
+        color:#fff;
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                        color:#fff;
+                }
+            }
+        }
+        .searchbar-main{
+            position:relative;
+            .nav-icon{
+               i{
+                position: absolute;
+                    left: 11px;
+                top: 11px;
+                color:#fff;
+               }
+               input {
+                    background:transparent;
+                    padding-left:35px;
+                    border:0;
+                    color:#fff;
+                    width:95px;
+                    &::placeholder{
+                        color:#fff;
+                    }
+                    &.form-control
+                    {
+                        &:focus{
+                            box-shadow:none;
+                            outline:none;
+                        }
+                    }
+                    
+                
+            }
+
+            }
+        }
+    }
+}

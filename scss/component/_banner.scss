@@ -1,0 +1,35 @@
+@import "../variable/variable";
+@import "../common/common";
+
+
+#banner{
+    background:url("../images/bannerreal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:200px 0;
+    margin-bottom:$sectiongap;
+    
+    .banner-text{
+        p{
+            color:$theme-color;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            
+        }
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 96px;
+            font-weight: 700;
+            
+            color:#fff;
+        }
+        h3{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 88px;
+            font-weight: 400;
+            color:#fff;
+        }
+    }
+}
